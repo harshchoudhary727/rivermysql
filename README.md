@@ -1,4 +1,4 @@
-##<h3>Rivermysql</h3>
+<h3>Rivermysql</h3>
 
 <h2> Prerequisites: </h2>
 
