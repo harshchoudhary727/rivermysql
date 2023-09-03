@@ -59,6 +59,7 @@
 ### Test cases:
 
 
+
 ![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/e0418b56-24ff-4c6e-b58c-787b6c1f0203)
 
  
@@ -77,7 +78,23 @@ Change the value in the record check whether the data is changes in elasticsearc
 
 
 
-Delete the ecord check whether the data is changes in elasticsearch or not.(update yes working)
+Delete the record check whether the data is changes in elasticsearch or not.(Delete yes working)
+We have deleted the id on 2.
+
+![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/7c3dbe4f-3805-479b-8f06-0ce00553504b)
+
+
+
+addition of records:
+![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/ed4e2d99-11c4-4904-ab5a-ca032e0f6a9c)
+
+
+
+Report of test cases:
+1. Change in Data in mysql and same is updated in elasticseach - Passed
+2. Delete the Data in mysql and same is deleted in elasticseach - Passed
+3. Addition of new Data  in mysql and same is added in elasticseach - Passed
+
 
 
  
