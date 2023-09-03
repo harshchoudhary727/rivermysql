@@ -6,7 +6,9 @@
 2. Install Mysql DB
 3. Elasticsearch is required to save the data in index.
 
-**Setup mysql**
+# Setup mysql:
+
+ podman run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=redhat docker.io/library/mysql:8 
 
 
 
