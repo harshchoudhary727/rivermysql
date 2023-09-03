@@ -8,19 +8,24 @@
 
 ### Setup mysql:
 
- podman run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=redhat docker.io/library/mysql:8 
+ #podman run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=redhat docker.io/library/mysql:8 
 
- Test the mysql from Base machine
+  Test the mysql from Base machine
 
- mysql -h 192.168.122.1 -u root -p
+ #mysql -h 192.168.122.1 -u root -p
  Enter password redhat
 
- create database test;
+ #create database test;
 
- use test;
+ #use test;
  
-  CREATE TABLE employee(ID INT PRIMARY KEY, First_Name VARCHAR(20), Last_Name VARCHAR(20), Salary INT, Email_Id VARCHAR(40));
+  #CREATE TABLE employee(ID INT PRIMARY KEY, First_Name VARCHAR(20), Last_Name VARCHAR(20), Salary INT, Email_Id VARCHAR(40));
   ![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/b8dcd17a-3b94-4583-bc57-658fe4188c19)
+
+
+ Insert some data in table:
+  INSERT INTO employee(ID, First_Name, Last_Name, Salary, Email_Id) VALUES(1, "Neeta", "Korade", 59000, "neetak12@gmail.com"), (2, "Sushma", "Singh", 62000, "sushsingh67@gmail.com"), (3, "Kavita", "Rathod", 27000, "kavitar09@gmail.com"), (4, "Mrunalini", "Deshmukh", 88000, "mrunald78@gmail.com"), (5, "Swati", "Patel", 34000, "swatip67@gmail.com"), (6, "Laxmi", "Kadam", 44000, "laxmik14@gmail.com"), (7, "Lalita", "Shah", 66000, "lalita45@gmail.com"), (8, "Savita", "Kulkarni", 31000, "savitak56@gmail.com"), (9, "Shravani", "Jaiswal", 38000, "shravanij39@gmail.com"), (10, "Shweta", "Wagh", 20000, "shwetaw03@gmail.com");
+  ![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/94e0cafe-6a54-4b0c-a37c-51b1aec4b038)
 
  
 
