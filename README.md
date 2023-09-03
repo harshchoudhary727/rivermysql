@@ -36,7 +36,34 @@
 
  ### RUN The River container.
 
- podman build -t river:v1 .
+ git clone the repository
+
+ #git clone https://github.com/harshchoudhary727/rivermysql.git
+
+ ![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/c047e84c-af83-4236-bfe0-111387718a14)
+
+ #cd rivermysql
+
+ #configure river.toml file as per the requirement.
+ 
+ #podman build -t localhost/river:v1 .
+
+ #podman run -itd --name river -v ./river.toml:/usr/local/river/etc/river.toml:rw  localhost/river:v1 
+
+
+ ###Check data in Elasticsearch.
+
+#curl 'http://localhost:9200/new/_search?pretty'  // change index name new as per the index name done in river.toml file
+
+
+Test cases:
+
+ 
+ 
+
+ 
+ 
+ 
 
  
 
