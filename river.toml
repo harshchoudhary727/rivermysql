@@ -47,7 +47,7 @@ skip_no_pk_table = false
 
 # MySQL data source
 [[source]]
-schema = "isroquiz"
+schema = "test"
 
 # Only below tables will be synced into Elasticsearch.
 # "t_[0-9]{4}" is a wildcard table format, you can use it if you have many sub tables, like table_0000 - table_1023
@@ -55,7 +55,7 @@ schema = "isroquiz"
 tables = ["employee"]
 
 [[rule]]
-schema = "isroquiz"
+schema = "test"
 table = "employee"
 index = "new"
 type = "new"
