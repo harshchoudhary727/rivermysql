@@ -1,6 +1,6 @@
 ## Rivermysql
 
-#Prerequisites:
+<h2> Prerequisites: </h2>
 
 1. You must have podman/docker install on your system.
 2. Install Mysql DB
