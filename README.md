@@ -36,7 +36,7 @@
 
  ### RUN The River container.
 
- git clone the repository
+ ##git clone the repository
 
  #git clone https://github.com/harshchoudhary727/rivermysql.git
 
@@ -56,14 +56,29 @@
 #curl 'http://localhost:9200/new/_search?pretty'  // change index name new as per the index name done in river.toml file
 
 
-Test cases:
+### Test cases:
+
+
+![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/e0418b56-24ff-4c6e-b58c-787b6c1f0203)
+
+ 
+ ![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/26fb3a8c-783b-487d-b5b7-9e8482d29d8e)
+
+Data is available in elasticsearch index.
+
+![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/d0e1fd1b-871b-4efb-86af-9adb24fa9929)
 
  
  
+ 
+Change the value in the record check whether the data is changes in elasticsearch or not.(update yes working)
 
- 
- 
- 
+![image](https://github.com/harshchoudhary727/rivermysql/assets/66783694/4b1716cb-04fe-4b6f-8a5d-5ef465146ce5)
+
+
+
+Delete the ecord check whether the data is changes in elasticsearch or not.(update yes working)
+
 
  
 
