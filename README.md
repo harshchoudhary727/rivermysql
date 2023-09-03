@@ -1,4 +1,4 @@
-<h1>Rivermysql</h1>
+<h1>SET up River on mysql to push data in elasticsearch</h1>
 
 <h2> Prerequisites: </h2>
 
