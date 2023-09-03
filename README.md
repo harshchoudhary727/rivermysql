@@ -34,6 +34,13 @@
  podman run -itd --name elasticdbz -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.7.0
 
 
+ ### RUN The River container.
+
+ podman build -t river:v1 .
+
+ 
+
+
 
 
 
